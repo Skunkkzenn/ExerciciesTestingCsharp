@@ -18,7 +18,7 @@ namespace Exercicios.Entities
             Hours = hours;
         }
 
-        public double totalValue() { 
+        public double TotalValue() { 
             return valuePerHour * Hours; 
         }
     }
